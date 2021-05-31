@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Aug  5 13:30:38 2019
-
-@author: krish.naik
-"""
-
 # Artificial Neural Network
 
 
@@ -80,17 +73,3 @@ grid = GridSearchCV(estimator=model, param_grid=param_grid,cv=5)
 grid_result = grid.fit(X_train, y_train)
 
 [grid_result.best_score_,grid_result.best_params_]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
